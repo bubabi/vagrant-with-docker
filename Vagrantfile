@@ -13,14 +13,13 @@ Vagrant.configure(2) do |config|
 
   #define a larger than default (40GB) disksize
   config.vm.box = "ubuntu/trusty64" 
-  config.vm.network "forwarded_port", guest: 9092, host: 9092
-  #config.vm.network "private_network",ip:"192.168.12.194"
+  config.vm.network "forwarded_port", guest: 2375, host: 2375
   config.disksize.size = '50GB'
   
   config.vm.provider "virtualbox" do |vb|
     vb.name = 'build_machine'
     vb.memory = 4096
-    vb.cpus = 1
+    vb.cpus = 2
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
