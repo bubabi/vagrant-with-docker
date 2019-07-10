@@ -1,6 +1,6 @@
 # docker-with-vagrant
 
-This repository purposes to create a Vagrant box and to enable the Docker Engine used from _2375_ port with the Docker Host. This allows you can use easily the Docker Engine from a remote Docker Client.
+This repository purposes to create a Vagrant box and to enable the Docker Engine used from _2375_ port with the Docker Host. This allows you can easily use the Docker Engine from a remote Docker Client.
 
 ## Usage
 
