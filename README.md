@@ -13,5 +13,5 @@ vagrant ssh
 **Client Machine**
 
 ```shell
-docker -H <BOX_IP>:2375 <DOCKER_COMMAND>
+docker -H tcp://<BOX_IP>:2375 <DOCKER_COMMAND>
 ```
