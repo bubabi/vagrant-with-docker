@@ -1,6 +1,6 @@
 # docker-with-vagrant
 
-<img src="https://technology.amis.nl/wp-content/uploads/2015/08/image70.png" alt="cover" width="355px" height="280px">
+<img src="https://technology.amis.nl/wp-content/uploads/2015/08/image70.png" alt="cover" width="385px" height="280px">
 
 
 This repository purposes to create a Vagrant box and to enable the Docker Daemon used from _2375_ port with the Docker Host parameter (-H). This allows you can easily use the Docker Daemon from a remote Docker Client.
