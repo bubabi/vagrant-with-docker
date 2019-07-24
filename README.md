@@ -1,4 +1,4 @@
-# Vagrant with Dockker
+# Vagrant with Docker
 
 <img src="https://technology.amis.nl/wp-content/uploads/2015/08/image70.png" alt="cover" width="385px" height="280px">
 
